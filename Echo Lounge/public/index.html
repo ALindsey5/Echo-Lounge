@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Take some time to unwind and dive into the genre of R&B">
+    <meta name="keywords" content="music, music news, information, r&b, soulful, relaxing, chill, lounging">
+    <meta name="author" content="Ahmad Lindsey">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Echo Lounge</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="text-center"><a href="index.html">Echo Lounge</a></h1>
+    </header>
+    <nav class="text-center">
+        <a href="blog.html">Blog</a> &nbsp
+        <a href="genre.html">Genre</a> &nbsp
+        <a href="contact.html">Contact</a> &nbsp
+    </nav>
+
+    <!-- Placeholder Carousel for Future Blog Posts -->
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicators -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <!-- Carousel Items -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="d-block w-100 p-5 text-center">
+                    <h2>Blog Post #1 Title</h2>
+                    <p>Short description of the first blog post. Stay tuned for weekly updates!</p>
+                    <a href="#" class="btn btn-primary">Read more</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="d-block w-100 p-5">
+                    <h2>Blog Post #2 Title</h2>
+                    <p>Short description of the second blog post. Stay tuned for weekly updates!</p>
+                    <a href="#" class="btn btn-primary">Read more</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="d-block w-100 p-5">
+                    <h2>Blog Post #3 Title</h2>
+                    <p>Short description of the third blog post. Stay tuned for weekly updates!</p>
+                    <a href="#" class="btn btn-primary">Read more</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Carousel Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div id="artist_quote" class="quote">
+        <p class="text-center">Random quote from a music artist goes here.....</p>
+    </div>
+
+    <!--This is where the newer blog posts for that month will take place-->
+    <section class="featured-blogs my-5 bg-dark">
+        <div class="container">
+            <h2 class="text-center mb-4">This Month's Recent Blogs</h2>
+            <div class="row">
+                <!-- Blog Post 1 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="recent1.jpg" class="card-img-top" alt="Recent Blog 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Recent Blog #1 Title</h5>
+                            <p class="card-text">A brief intro to the first recent blog of the month. Catch a quick
+                                glimpse of the content.</p>
+                            <a href="#" class="btn btn-primary">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog Post 2 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="recent2.jpg" class="card-img-top" alt="Recent Blog 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Recent Blog #2 Title</h5>
+                            <p class="card-text">An engaging teaser for the second featured blog post this month.</p>
+                            <a href="#" class="btn btn-primary">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog Post 3 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="recent3.jpg" class="card-img-top" alt="Recent Blog 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Recent Blog #3 Title</h5>
+                            <p class="card-text">A snippet from the third blog, showing why it's one of the most-read
+                                articles this month.</p>
+                            <a href="#" class="btn btn-primary">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer py-3 mt-4 border-top">
+        <div class="container text-center">
+            <div class="d-flex justify-content-center gap-3">
+                <p>&copy; 2024 Echo Lounge</p>
+                <a href="mailto:ahmadlindsey11@gmail.com">ahmadlindsey11@gmail.com</a>
+                <a href="www.linkedin.com/in/ahmad-lindsey" target="_blank" aria-label="LinkedIn"
+                    class="text-primary fs-4">
+                    <i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
